@@ -11,17 +11,17 @@
     "MODE": {
       "description": "Put Mode either public or private",
       "required": true,
-      "value": "private"
+      "value": "public"
     },
      "OWNER_NAME": {
       "description": "Put the name of Bot Owner",
-      "required": false,
-      "value": "GIFTED TECH"
+      "required": true,
+      "value": "Haseeb_Md"
     },
     "OWNER_NUMBER": {
       "description": "Put Bot Owner Numbers",
-      "required": false,
-      "value": "254110853827"
+      "required": true,
+      "value": "923077425261"
     },
      "NOT_ALLOW": {
       "description": "Put value true to disable bot in pm during public mode.",
@@ -35,23 +35,23 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Put true if you want bot to view status",
-      "required": false,
-      "value": "true"
+      "required": true,
+      "value": ""
     },
     "AUTO_READ": {
       "description": "Put true if you want bot to read message",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "AUTO_TYPING": {
       "description": "Put true if you want bot to show typing",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "AUTO_RECORDING": {
       "description": "Put true if you want bot to show recording audio",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "ALWAYS_ONLINE": {
       "description": "Put true if you want bot to show always online",
@@ -61,12 +61,12 @@
     "AUTO_DOWNLOAD": {
       "description": "Put true if you need to download media by using link without cmd",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_BLOCK": {
       "description": "Put true if you want bot to auto block only 212 numbers",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_REACT": {
       "description": "Put value to true or false",
